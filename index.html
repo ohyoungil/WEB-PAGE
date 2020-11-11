@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youngil's portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/0a14441910.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fas fa-stream"></i>
+        <a href="index.html">Youngil</a>
+      </div>
+      <div class="navbar__items">
+        <ul class="navbar__menu">
+          <li class="navbar__menu__item active"><a href='#home'>Home</a></li>
+          <li class="navbar__menu__item"><a href='#about'>About</a></li>
+          <li class="navbar__menu__item"><a href='#skills'>Skills</a></li>
+          <li class="navbar__menu__item"><a href='#work'>My Work</a></li>
+          <li class="navbar__menu__item"><a href='#contact'>Contact</a></li>
+        </ul>
+      </div>
+
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <section id="home">
+      <div class="home">
+        <img src="imgs/me.png" alt="#" class="home__avatar" />
+        <h1 class="home__title">Hello, <br />I'm Youngil Oh</h1>
+        <h2 class="home__description">
+          A software Enginner currently residing in Seoul, Korea.
+        </h2>
+        <button class="home__contact"><a href='#contact'>Contact Me</a></button>
+      </div>
+    </section>
+
+    <section id="about" class="section section__container">
+      <h1 class="about__title">About me</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto
+        quas ut explicabo tempora provident harum et, quasi nam obcaecati odio
+        sed ullam, laborum aliquid in tenetur eveniet fugiat. Ducimus,
+        architecto.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">HTML</h2>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h2 class="major__title">CSS</h2>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <h2 class="major__title">JavaScript</h2>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero
+          reprehenderit, accusantium amet rerum et nisi delectus ab quasi
+          recusandae voluptates optio laborum doloribus magni, porro qui
+          expedita magnam consequatur voluptate.
+        </p>
+        <div class="skillset">
+          <div class="skillset-left">
+            <h3 class="skillset__title">
+              Skills
+            </h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML</span>
+                <span>75%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 75%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>CSS</span>
+                <span>75%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 75%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JavaScript</span>
+                <span>70%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 70%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset-right">
+            <div class="tools">
+              <h3 class="skillset__title">Tools</h3>
+              <ul class="tools__list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span>Notion</span></li>
+                <li><span>Git</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section__container">
+        <h1>My work</h1>
+        <h3>Projects</h3>
+        <div class="work__categories">
+          <button class="category__btn">
+            All<span class="category__count">3</span>
+          </button>
+          <button class="category__btn">
+            HTML&CSS&JavaScript<span class="category__count">3</span>
+          </button>
+        </div>
+        <div class="work__projects">
+          <a href="#" class="project" target="blank"
+            ><img src="imgs/미니게임.png" alt="" class="project__img" />
+            <div class="project__description">
+              <h3>MiniGame</h3>
+              <span>HTML, CSS, JavaScript</span>
+            </div>
+          </a>
+          <a href="#" class="project" target="blank"
+            ><img src="imgs/kakao.png" alt="" class="project__img" />
+            <div class="project__description">
+              <h3>Kakao</h3>
+              <span>HTML, CSS, JavaScript</span>
+            </div>
+          </a>
+          <a href="#" class="project" target="blank"
+            ><img src="imgs/YouTuBeBasic.png" alt="" class="project__img" />
+            <div class="project__description">
+              <h3>YouTuBe-Basic</h3>
+              <span>HTML, CSS, JavaScript</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">oyi00111@gmail.com</h2>
+      <p class="contact__rights">2020 Youngil - All rights reserved</p>
+    </section>
+  </body>
+</html>
