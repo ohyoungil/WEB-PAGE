@@ -154,7 +154,7 @@ button {
   top: 24px;
   font-size: var(--font-medium);
   color: var(--color-white);
-  right: 32px;
+  right: 16px;
   display: none;
 }
 
